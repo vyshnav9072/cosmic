@@ -1,5 +1,8 @@
+import 'package:cosmic_ios/favourite.dart';
 import 'package:cosmic_ios/home_screen.dart';
+import 'package:cosmic_ios/inner.dart';
 import 'package:cosmic_ios/login.dart';
+import 'package:cosmic_ios/profile.dart';
 import 'package:cosmic_ios/splash.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(body: HomeScreen()),
+      home: Scaffold(body: Profile()),
     );
   }
 }
